@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher">
     <!-- Update the db with new hotseat items.  Note that we reference the browser's original
          package name. -->
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
@@ -38,7 +38,7 @@
         launcher:container="-101"
         launcher:screen="3"
         launcher:x="2"
-        launcher:y="0" />
+        launcher:y="0"/>
     <favorite
         launcher:packageName="com.android.browser"
         launcher:className="com.android.browser.BrowserActivity"

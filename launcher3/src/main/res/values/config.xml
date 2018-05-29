@@ -50,6 +50,7 @@
          is used for internal (baked-in) padding -->
     <integer name="config_allAppsButtonPaddingPercent">17</integer>
 
+    <!--设置默认页-->
     <integer name="config_workspaceDefaultScreen">0</integer>
 
     <!-- Tab transition animation duration -->
@@ -97,13 +98,13 @@
     <bool name="hotseat_transpose_layout_with_orientation">true</bool>
 
     <!-- Memory debugging, including a memory dump icon -->
-    <bool name="debug_memory_enabled">false</bool>
+    <bool name="debug_memory_enabled">true</bool>
 
-    <!-- Name of a subclass of com.android.launcher3.AppFilter used to
+    <!-- Name of a subclass of AppFilter used to
          filter the activities shown in the launcher. Can be empty. -->
     <string name="app_filter_class" translatable="false"></string>
 
-    <!-- Name of a subclass of com.android.launcher3.BuildInfo used to
+    <!-- Name of a subclass of BuildInfo used to
          get build information. Can be empty. -->
     <string name="build_info_class" translatable="false"></string>
 </resources>
